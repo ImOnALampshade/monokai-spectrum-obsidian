@@ -26,7 +26,7 @@ License: MIT
     --text-error-hover: #fc618d;
     --text-highlight-bg: #fce566;
     --text-highlight-bg-active: #fd9353;
-    --text-selection: rgba(54, 53, 55, 0.5);
+    --text-selection: rgba(82, 80, 83, 0.5);
     --text-on-accent: #222222;
     --interactive-normal: #363537;
     --interactive-hover: #525053;
@@ -234,6 +234,8 @@ button:hover {
 .theme-dark .cm-s-obsidian span.cm-highlight {
     background-color: #fce566;
     color: #131313;
+    padding: 0.1em 0.3em;
+    border-radius: 2px;
 }
 
 .cm-s-obsidian span.cm-formatting-task {
