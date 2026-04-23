@@ -219,12 +219,12 @@ button:hover {
     border-color: #7bd88f;
 }
 
-.markdown-preview-view mark,
-.markdown-source-view.mod-cm6 mark,
-.search-result-file-match mark,
-.cm-s-obsidian span.cm-highlight {
-    background-color: #fce566 !important;
-    color: #131313 !important;
+.theme-dark .markdown-preview-view mark,
+.theme-dark .markdown-source-view.mod-cm6 mark,
+.theme-dark .search-result-file-match mark,
+.theme-dark .cm-s-obsidian span.cm-highlight {
+    background-color: #fce566;
+    color: #131313;
 }
 
 .cm-s-obsidian span.cm-formatting-task {
