@@ -50,6 +50,15 @@ body {
     --h6-size: 0.9em;
 }
 
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    border: 1px solid #131313;
+    pointer-events: none;
+    z-index: 9999;
+}
+
 .markdown-source-view.mod-cm6 .cm-line {
     color: var(--text-normal);
 }
