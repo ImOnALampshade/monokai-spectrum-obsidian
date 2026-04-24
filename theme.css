@@ -234,7 +234,7 @@ button:hover {
 .theme-dark .cm-s-obsidian span.cm-highlight {
     background-color: #fce566;
     color: #131313;
-    padding: 0.1em 0.3em;
+    padding: 0.1em;
     border-radius: 2px;
 }
 
